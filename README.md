@@ -1,6 +1,6 @@
 # HTML Gurus
 
-<img src="https://s3.amazonaws.com/after-school-assets/ryan-gosling-programmer-html.jpg" height="300px" align="right" hspace="10">
+<img src="https://s3.amazonaws.com/after-school-assets/ryan-gosling-programmer-html.jpg" height="250px" align="right" hspace="10">
 
 Without HTML, the internet today as we know it would not exist. While there are many many computer programming languages, HTML is one of 3 that are universal across every single website. Because of this, HTML is incredibly important to learn. And the best way to learn it? Practice!
 

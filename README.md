@@ -4,14 +4,14 @@
 
 Without HTML, the internet today as we know it would not exist. While there are many many computer programming languages, HTML is one of 3 that are universal across every single website. Because of this, HTML is incredibly important to learn. And the best way to learn it? Practice!
 
-Take a stab at the Album Cover lab, and feel free to take a look at the tags below for some extra help!
+Take a stab at the Album Cover lab, and use the resources below for some extra help!
 
 
 ## Most Frequently Used Tags
 
 ### `<h1> </h1>` through `<h6> </h6>`
 
-This tag is used for headings with `<h1>` being the most important and `<h6>` being the least. Headings are great for introducing sections in your website. Here are all the tags side by side so you can see the difference:
+This tag is used for headings. There are 6 different levels of header tags,  with `<h1>` being the most important and `<h6>` being the least. Headings are great for introducing sections in your website. Here are all the tags side by side so you can see the difference:
 
 <img src="https://after-school-assets.s3.amazonaws.com/h1-h6.png">
 

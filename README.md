@@ -79,32 +79,49 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 ### `<h1> </h1>` through `<h6> </h6>`
 
-This tag is used for headings. There are 6 different levels of header tags,  with `<h1>` being the most important and `<h6>` being the least. Headings are great for introducing sections in your website. Here are all the tags side by side so you can see the difference:
+This tag is used for headings. There are 6 different levels of header tags,  with `<h1>` being the most important and `<h6>` being the least. Headings are great for introducing sections in your website.
+
+These different header tags require an opening tag `<h1>` and a closing tag `</h1>`. These opening and closing tags should surround the text you want to be the header of your site.
+
+Here are all the header tags side by side so you can see the difference:
 
 <img src="https://after-school-assets.s3.amazonaws.com/h1-h6.png">
 
 ### `<p> </p>`
 
- Use this tag for chunks of normal text. The p stands for paragraph.
+Use this tag for chunks of normal text. The `p` stands for paragraph. Again, this tag needs both and opening and a closing tag surrounding the paragraph.
 
 ### `<br>`
 
-HTML doesn't understand whitespace, which means if in your HTML document you press the return key a bunch of times and have a lot of empty lines, your browser won't recognize those empty lines. Use `<br>` to manually create those empty lines. Notice how `<br>` is one of the only tags that doesn't require a closing tag.
+HTML doesn't understand whitespace, which means if in your HTML file you press the return key a bunch of times and have a lot of empty lines, your browser won't recognize those empty lines. Use `<br>` to manually create those empty lines. Notice how `<br>` is one of the only tags that doesn't require a closing tag.
 
 ### `<a href="www.google.com"> CLICK HERE </a>`
 
-The `<a>` tag is a link tag. The `href` part is an **attribute** of the `<a>` tag. And attribute gives more information about the tag. In the quotes following the `=` is where you would put the website you are linking to. For example, if you were trying to link to Google, you would write `<a href="www.google.com">Click here to go to Google</a>`.
+The `<a>` tag is a link tag. The `href` part is an **attribute** of the `<a>` tag. An attribute gives more information about the tag. In the quotes following the `=` is where you would put the website you are linking to. For example, if you were trying to link to Google, you would write `<a href="www.google.com">Click here to go to Google</a>`.
+
+The `a` tag also has an opening and a closing tag. The text between the two is the text of the link.
 
 ### `<img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> `
 
-The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. Or you can link to images stored on your computer, in which case you would list the path to the image.
+The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. Or you can link to images stored on your computer, in which case you would list the path to the image. The `img` tag does not have a closing tag; it's the rare exception.
 
 ### `<title> </title>`
 
 The `<title>` tag is used for the title of your site. This is the text that will be displayed in the browser tab.
 
+```html
+<title> Puppies</title>
+```
+
 ### `<span> <span>` 
 
-The `<span>` tag is used as a container to group lots of HTML elements together
+The `<span>` tag is used as a container to group lots of HTML elements together, or text.
+
+```html
+<span>
+  <img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> 
+  <p> Puppy kitty ipsum dolor sit good dog cockatiel wag tail ball finch bedding kitty walk fleas wagging kitty fish bed. Stripes vaccine ferret mouse dinnertime house train litter box pet gate slobber pet food pet supplies pet gate meow play dead roll over teeth warm. Finch catch house train lol catz Spike finch parrot feathers chow bark furry pet supplies treats.</p>
+</span>
+```
 
 

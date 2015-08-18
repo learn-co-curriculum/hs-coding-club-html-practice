@@ -17,7 +17,7 @@ In Learn.co, view the Album Cover lab. Click on `Open in Nitrous` in the top lef
 
 ### Step 2
 
-To open the files to edit them, you can use the file navigator on the left side. Double click on a file and it will open in the text editor.
+You'll want to look on the left side of Nitrous (the file navigator) and look at `Nitrous < Code < Labs < Album Cover`. To open the files to edit them, you can use the file navigator on the left side. Double click on `index.html` and it will open in the text editor.
 
 ### Step 3
 
@@ -35,7 +35,7 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 ### `<h1> </h1>` through `<h6> </h6>`
 
-This tag is used for headings. There are 6 different levels of header tags,  with `<h1>` being the most important and `<h6>` being the least. Headings are great for introducing sections in your website.
+This tag is used for headings. There are 6 different levels of header tags,  with `<h1>` being the most important and `<h6>` being the least (in between are `<h2>`, `<h3>`, `<h4>` and `<h5>`. Headings are great for introducing sections in your website.
 
 These different header tags require an opening tag `<h1>` and a closing tag `</h1>`. These opening and closing tags should surround the text you want to be the header of your site.
 
@@ -53,13 +53,22 @@ HTML doesn't understand whitespace, which means if in your HTML file you press t
 
 ### `<a href="www.google.com"> CLICK HERE </a>`
 
-The `<a>` tag is a link tag. The `href` part is an **attribute** of the `<a>` tag. An attribute gives more information about the tag. In the quotes following the `=` is where you would put the website you are linking to. For example, if you were trying to link to Google, you would write `<a href="www.google.com">Click here to go to Google</a>`.
+The `<a>` tag is a link tag. The `href` part is an **attribute** of the `<a>` tag. `href` stands for "hyperlink reference". An attribute gives more information about the tag. In the quotes following the `=` is where you would put the website you are linking to. For example, if you were trying to link to Google, you would write `<a href="http://www.google.com">Click here to go to Google</a>`.
 
 The `a` tag also has an opening and a closing tag. The text between the two is the text of the link.
 
 ### `<img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> `
 
-The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. Or you can link to images stored on your computer, in which case you would list the path to the image. The `img` tag does not have a closing tag; it's the rare exception.
+The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. 
+
+Or you can link to images stored on your computer, in which case you would list the path to the image. If I was working on a website, and I would have an `index.html` to build the HTML of my website, and a directory called `images` to store my images. Let's say inside of `images`, I had a picture called `puppies.jpg`, which was a picture I took of some puppies in the park. If I wanted to display that picture in my website, the `img` tag would look like this:
+
+```html
+<img src="images/puppies.jpg">
+```
+
+
+The `img` tag does not have a closing tag; it's the rare exception.
 
 ### `<title> </title>`
 
@@ -71,7 +80,7 @@ The `<title>` tag is used for the title of your site. This is the text that will
 
 ### `<span> <span>` 
 
-The `<span>` tag is used as a container to group lots of HTML elements together, or text.
+The `<span>` tag is used as a container to group lots of HTML elements together, or text. This is important if I want to group together an `h1`, `h2` and a  `p` tag so that we could eventually make them all have the same font color and font size, it would be easier to group them in a `span` and then apply styling. Don't worry too much if that was a confusing explanation, we'll get into styling next lesson!
 
 ```html
 <span>

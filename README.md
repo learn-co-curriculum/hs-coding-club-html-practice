@@ -33,7 +33,8 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 ## Most Frequently Used Tags
 
-### `<h1> </h1>` through `<h6> </h6>`
+### `h1` through `h6` tags
+
 
 This tag is used for headings. There are 6 different levels of header tags,  with `<h1>` being the most important and `<h6>` being the least (in between are `<h2>`, `<h3>`, `<h4>` and `<h5>`. Headings are great for introducing sections in your website.
 
@@ -43,23 +44,27 @@ Here are all the header tags side by side so you can see the difference:
 
 <img src="https://after-school-assets.s3.amazonaws.com/h1-h6.png">
 
-### `<p> </p>`
+### `p` tags
 
 Use this tag for chunks of normal text. The `p` stands for paragraph. Again, this tag needs both and opening and a closing tag surrounding the paragraph.
 
-### `<br>`
+### `br` tag
 
 HTML doesn't understand whitespace, which means if in your HTML file you press the return key a bunch of times and have a lot of empty lines, your browser won't recognize those empty lines. Use `<br>` to manually create those empty lines. Notice how `<br>` is one of the only tags that doesn't require a closing tag.
 
-### `<a href="www.google.com"> CLICK HERE </a>`
+### `a` tag
 
 The `<a>` tag is a link tag. The `href` part is an **attribute** of the `<a>` tag. `href` stands for "hyperlink reference". An attribute gives more information about the tag. In the quotes following the `=` is where you would put the website you are linking to. For example, if you were trying to link to Google, you would write `<a href="http://www.google.com">Click here to go to Google</a>`.
 
 The `a` tag also has an opening and a closing tag. The text between the two is the text of the link.
 
-### `<img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> `
+### `img` tag
 
 The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. 
+
+```html
+<img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> 
+```
 
 Or you can link to images stored on your computer, in which case you would list the path to the image. If I was working on a website (stored in a directory called `my_website`), I would have an `index.html` to build the HTML of my website, and a directory called `images` to store my images. Let's say inside of `images`, I had a picture called `puppies.jpg`, which was a picture I took of some puppies in the park. Take a look at that file structure below:
 
@@ -79,7 +84,7 @@ If I wanted to display that picture in my website, the `img` tag would look like
 
 The `img` tag does not have a closing tag; it's the rare exception.
 
-### `<title> </title>`
+### `title` tag
 
 The `<title>` tag is used for the title of your site. This is the text that will be displayed in the browser tab.
 
@@ -91,7 +96,7 @@ And in the browser like this:
 
 <img src="https://s3.amazonaws.com/after-school-assets/title-tag-in-browser.png">
 
-### `<span> <span>` 
+### `span` tag
 
 The `<span>` tag is used as a container to group lots of HTML elements together, or text. This is important if I want to group together an `h1`, `h2` and a  `p` tag so that we could eventually make them all have the same font color and font size, it would be easier to group them in a `span` and then apply styling. Don't worry too much if that was a confusing explanation, we'll get into styling next lesson!
 

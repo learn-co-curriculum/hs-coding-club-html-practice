@@ -61,7 +61,16 @@ The `a` tag also has an opening and a closing tag. The text between the two is t
 
 The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. 
 
-Or you can link to images stored on your computer, in which case you would list the path to the image. If I was working on a website, and I would have an `index.html` to build the HTML of my website, and a directory called `images` to store my images. Let's say inside of `images`, I had a picture called `puppies.jpg`, which was a picture I took of some puppies in the park. If I wanted to display that picture in my website, the `img` tag would look like this:
+Or you can link to images stored on your computer, in which case you would list the path to the image. If I was working on a website (stored in a directory called `my_website`), I would have an `index.html` to build the HTML of my website, and a directory called `images` to store my images. Let's say inside of `images`, I had a picture called `puppies.jpg`, which was a picture I took of some puppies in the park. Take a look at that file structure below:
+
+```bash
+my_website/
+├── images
+│   └── puppies.jpg
+└── index.html
+```
+
+If I wanted to display that picture in my website, the `img` tag would look like this:
 
 ```html
 <img src="images/puppies.jpg">
@@ -74,9 +83,13 @@ The `img` tag does not have a closing tag; it's the rare exception.
 
 The `<title>` tag is used for the title of your site. This is the text that will be displayed in the browser tab.
 
-```html
-<title> Puppies</title>
-```
+Your code will look something like this:
+
+<img src="https://s3.amazonaws.com/after-school-assets/title-tag.png">
+
+And in the browser like this:
+
+<img src="https://s3.amazonaws.com/after-school-assets/title-tag-in-browser.png">
 
 ### `<span> <span>` 
 

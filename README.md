@@ -60,10 +60,10 @@ The `a` tag also has an opening and a closing tag. The text between the two is t
 
 ### `img` tag
 
-The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. 
+The `<img>` tag is for images. `src` is an attribute of the `<img>` tag, where you list the source of the image you want to display on your website.  The `alt` attribute stands for alternate text. This text will display on your website if for some reason the image can't. You can link directly to an image you found on a separate website, in which case you would list the URL to the image. 
 
 ```html
-<img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> 
+<img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg" alt="puppies"> 
 ```
 
 Or you can link to images stored on your computer, in which case you would list the path to the image. If I was working on a website (stored in a directory called `my_website`), I would have an `index.html` to build the HTML of my website, and a directory called `images` to store my images. Let's say inside of `images`, I had a picture called `puppies.jpg`, which was a picture I took of some puppies in the park. Take a look at that file structure below:

@@ -31,6 +31,10 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
+## Share Share Share!
+
+When you're done, don't forget to share your amazing work! Screen shot your completed album cover or code and share with **\#flatironcodeclub** and **\#pharrellneedsme
+
 ## Most Frequently Used Tags
 
 ### `h1` through `h6` tags

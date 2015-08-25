@@ -38,7 +38,7 @@ When you're done with you're work, it's important to push your work to GitHub. R
 
 ## Share Share Share!
 
-When you're done, don't forget to share your amazing work! Screen shot your completed album cover or code and share with **\#flatironcodeclub** and **\#pharrellneedsme
+When you're done, don't forget to share your amazing work! Screenshot your completed album cover or code and share with **\#flatironcodeclub** and **\#pharrellneedsme
 
 ## Most Frequently Used Tags
 

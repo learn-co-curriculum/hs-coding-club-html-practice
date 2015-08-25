@@ -31,6 +31,11 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
+## Step 4
+
+When you're done with you're work, it's important to push your work to GitHub. Remember, that's your online developer portfolio. In Nitrous, in terminal in the `Album Cover` directory, enter `learn submit`. This will push your code to GitHub (you can see it if you look at your repositories!) and mark the lab as complete.
+
+
 ## Share Share Share!
 
 When you're done, don't forget to share your amazing work! Screen shot your completed album cover or code and share with **\#flatironcodeclub** and **\#pharrellneedsme

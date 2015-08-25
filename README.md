@@ -10,7 +10,7 @@ Take a stab at the Album Cover lab, and use the resources below for some extra h
 
 ###Step 1:
 
-In Learn.co, view the Album Cover lab. Click on `Open in Nitrous` in the top left corner:
+In Learn, view the Album Cover lab. Click on `Open in Nitrous` in the top left corner:
 
 <img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
 

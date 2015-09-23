@@ -10,9 +10,9 @@ Take a stab at the Album Cover lab, and use the resources below for some extra h
 
 ###Step 1:
 
-In Learn, view the Album Cover lab. Click on `Open in Nitrous` in the top left corner:
+In Learn, view the Album Cover lab. Click on `Open` in the top left corner:
 
-<img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
+<img src="https://s3.amazonaws.com/after-school-assets/new-open-in-nitrous.png">
 
 
 ### Step 2
@@ -108,6 +108,17 @@ And in the browser like this:
 ### `span` tag
 
 The `<span>` tag is used as a container to group lots of HTML elements together, or text. This is important if I want to group together an `h1`, `h2` and a  `p` tag so that we could eventually make them all have the same font color and font size, it would be easier to group them in a `span` and then apply styling. Don't worry too much if that was a confusing explanation, we'll get into styling next lesson!
+
+```html
+<span>
+  <img src="http://cdn.sheknows.com/articles/2013/04/Puppy_2.jpg"> 
+  <p> Puppy kitty ipsum dolor sit good dog cockatiel wag tail ball finch bedding kitty walk fleas wagging kitty fish bed. Stripes vaccine ferret mouse dinnertime house train litter box pet gate slobber pet food pet supplies pet gate meow play dead roll over teeth warm. Finch catch house train lol catz Spike finch parrot feathers chow bark furry pet supplies treats.</p>
+</span>
+```
+
+### `div` tag
+
+The `<div>` tag is very similar to the `<span>` tag and is used to group other HTML elements together. The difference between `div` and `span` is only apparent when you start to get into page layout with CSS. For now, don't worry about it. Just know they operate the same!
 
 ```html
 <span>

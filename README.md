@@ -53,7 +53,7 @@ Here are all the header tags side by side so you can see the difference:
 
 <img src="https://after-school-assets.s3.amazonaws.com/h1-h6.png">
 
-### `p` tags
+### `p` tag
 
 Use this tag for chunks of normal text. The `p` stands for paragraph. Again, this tag needs both and opening and a closing tag surrounding the paragraph.
 

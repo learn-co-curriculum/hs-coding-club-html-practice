@@ -127,6 +127,7 @@ The `<div>` tag is very similar to the `<span>` tag and is used to group other H
 </span>
 ```
 
-
-
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-coding-club-html-practice' title='HTML Gurus'>HTML Gurus</a> on Learn.co and start learning to code for free.</p>
+
+Try again
+<p class='util--hide'>View <a href='https://learn.co/lessons/hs-coding-club-html-practice'>Lesson: HTML Tags</a> on Learn.co and start learning to code for free.</p>
